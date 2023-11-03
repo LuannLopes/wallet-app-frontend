@@ -12,7 +12,7 @@ body {
   background-color: #5936CD;
 }
 
-.login-container {
+.auth-container {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -20,7 +20,7 @@ body {
   align-items: center;
 }
 
-.login-content {
+.auth-content {
   width: 480px;
   height: auto;
   min-height: 460px;
@@ -32,7 +32,7 @@ body {
   background-color: #F4F4F9;
 }
 
-.login-content-container {
+.auth-content-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,6 +40,11 @@ body {
   width: 100%;
   height: 100%;
   padding: 36px 24px;
+}
+
+.logo {
+  width: 88px;
+  height: auto;
 }
 
 h1 {
@@ -75,10 +80,14 @@ label {
   font-weight: 500;
 }
 
-a {
-  font-size: 14px;
-  font-weight: 700;
-  text-decoration: underline;
+input {
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  border: 2px solid #06BEE1;
+  color: #010400;
+  font-size: 16px;
+  padding: 10px;
 }
 
 button {
@@ -90,6 +99,7 @@ button {
   color: #F4F4F9;
   font-size: 16px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 button.small {
@@ -101,14 +111,18 @@ button.small {
   font-size: 14px;
 }
 
-input {
-  width: 100%;
-  height: 48px;
-  border-radius: 8px;
-  border: 2px solid #06BEE1;
-  color: #010400;
-  font-size: 16px;
-  padding: 10px;
+button:hover {
+  opacity: .8;
+}
+
+button:active {
+  opacity: .6;
+}
+
+a {
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 .full-width {
@@ -141,9 +155,4 @@ input {
 
 .mt.smaller {
   margin-top: 6px;
-}
-
-.logo {
-  width: 88px;
-  height: auto;
 }

@@ -10,19 +10,20 @@
 </head>
 
 <body>
-  <div class="login-container">
-    <div class="login-content">
-      <div class="login-content-container">
-        <img class="logo" src="src/img/logo.png" alt="logo">
+  <div class="auth-container">
+    <div class="auth-content">
+      <div class="auth-content-container">
+        <img class="logo" src="src/img/logo.png" alt="Logo Wallet App">
         <h3 class="full-width text-left mt larger">Bem vindo!</h3>
         <p class="mt small">Digite seu e-mail abaixo para ter acesso à aplicação financeira Wallet, e ter uma melhor
           controle dos seus
           gastos
           mensais.</p>
-        <label class="mt" for="input-email">E-mail</label>
+        <label class="mt" for="input-email">E-mail:</label>
         <input id="input-email" name="input-email" class="mt smaller" type="email" placeholder="email@exemplo.com">
-        <button class="full-width mt large">Acessar</button>
-        <a class="mt larger" href="">Não tem conta ? Faça seu cadastro aqui.</a>
+        <button onclick="onClickLogin()" class="full-width mt large" type="button">Acessar</button>
+        <a class="mt larger" href="src/pages/register/index.html">Não tem conta ? Faça seu cadastro
+          aqui.</a>
       </div>
     </div>
   </div>
