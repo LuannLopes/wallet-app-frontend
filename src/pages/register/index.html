@@ -16,11 +16,15 @@
         <img class="logo" src="../../img/logo.png" alt="Logo Wallet App">
         <h3 class="full-width text-left mt larger">Novo Cadastro</h3>
         <p class="mt small">Insira seu nome e seu e-mail para ter acesso ao Wallet app e gerenciar suas finanças</p>
-        <label class="mt" for="input-name">Nome:</label>
-        <input id="input-name" name="input-name" class="mt smaller" type="text" placeholder="Ex: José da Silva">
-        <label class="mt" for="input-email">E-mail:</label>
-        <input id="input-email" name="input-email" class="mt smaller" type="email" placeholder="email@exemplo.com">
-        <button class="full-width mt large" type="button">Cadastrar</button>
+        <form id="form-register" class="mt">
+          <label for="input-name">Nome:</label>
+          <input id="input-name" name="input-name" class="mt smaller" type="text" placeholder="Ex: José da Silva"
+            required>
+          <label class="mt" for="input-email">E-mail:</label>
+          <input id="input-email" name="input-email" class="mt smaller" type="email" placeholder="email@exemplo.com"
+            required>
+          <button class="full-width mt large" type="submit">Cadastrar</button>
+        </form>
         <a class="mt larger" href="../../../index.html">Já possui uma conta ? Faça login aqui.</a>
       </div>
     </div>
