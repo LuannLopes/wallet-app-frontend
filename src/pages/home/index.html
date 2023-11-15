@@ -37,7 +37,7 @@
       <div class="table-content-container">
         <div class="table-content-header">
           <h2>Últimos lançamentos</h2>
-          <button class="small">Adicionar</button>
+          <button onclick="onOpenModal()" class="small">Adicionar</button>
         </div>
         <table id="finance-table">
           <tr>
@@ -49,6 +49,26 @@
           </tr>
         </table>
       </div>
+    </div>
+  </div>
+  <div id="modal" class="modal-background">
+    <div class="modal-content">
+      <div class="modal-content-header">
+        <h3>Adicionar lançamento</h3>
+        <button onclick="onCloseModal()" class="small">Fechar</button>
+      </div>
+      <form id="form-register" class="mt">
+        <label for="input-title">Título:</label>
+        <input id="input-title" name="input-title" class="mt smaller" type="text" placeholder="Ex: Compra supermercado"
+          required>
+        <label class="mt" for="input-value">Valor:</label>
+        <input id="input-value" name="input-value" class="mt smaller" type="number" placeholder="R$ 48.00" required>
+        <label class="mt" for="input-date">Data:</label>
+        <input id="input-date" name="input-date" class="mt smaller" type="date" placeholder="12/12/2022" required>
+        <label class="mt" for="input-category">Categoria:</label>
+        <select id="input-category" name="input-category" class="mt smaller" required></select>
+        <button class="full-width mt large" type="submit">Adicionar</button>
+      </form>
     </div>
   </div>
 </body>
