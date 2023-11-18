@@ -96,6 +96,10 @@ table {
   width: 100%;
 }
 
+tr {
+  height: 32px;
+}
+
 th {
   text-align: left;
   color: #7C7C7C
