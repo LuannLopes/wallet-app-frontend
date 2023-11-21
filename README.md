@@ -9,7 +9,7 @@
   <a href="#live-application">Live application.</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#technologies">Technologies.</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#instructions-to-run">Instructions to run.</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="result">Result.</a>
+  <a href="#result">Result.</a>
 </p>
 
 ## About the project.
