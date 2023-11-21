@@ -48,3 +48,16 @@ Open the index.html file with some browser
 ```
 teste@teste.com
 ```
+## Result.
+
+  <div style="display: flex;   flex-direction: column;
+  align-items: center;">
+  <h1 align="center" style="display: flex; flex-direction:row;">
+      <img   style="margin: 0 10px;" alt="wallet-app-img" src="src/img/screenshor1.png" />
+      <img   style="margin: 0 10px;" alt="wallet-app-img" src="src/img/screenshor2.png" />
+  </h1>
+  <h1 align="center" style="display: flex; flex-direction:row;">
+        <img   style="margin: 0 10px;" alt="wallet-app-img" src="src/img/screenshor3.png" />
+      <img   style="margin: 0 10px;" alt="wallet-app-img" src="src/img/screenshor4.png" />
+  </h1>
+  </div>
