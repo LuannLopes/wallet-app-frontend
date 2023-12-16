@@ -34,7 +34,7 @@ This application was developed with the following technologies:
 1. Clone the application:
 
 ```
-git clone https://github.com/Luannlopes/wallet-app-frontend.git
+git clone https://github.com/LuannLopes/wallet-app-frontend.git
 ```
 
 2. Open in the explorer the project and open the index.html file
