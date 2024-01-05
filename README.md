@@ -5,12 +5,22 @@
 </h1>
 
 <p align="center">
+<a href="#result">Result.</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#about-the-project">About the project.</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#live-application">Live application.</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#technologies">Technologies.</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#instructions-to-run">Instructions to run.</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#result">Result.</a>
 </p>
+
+## Result.
+
+  <div style="display: flex;   flex-direction: column;
+  align-items: center;">
+  <h1 align="center" style="display: flex; flex-direction:row;">
+      <img   style="margin: 0 10px;" alt="wallet-app-img" src="src/img/demo-w.gif" />
+  </h1>
+  </h1>
+  </div>
 
 ## About the project.
 
@@ -48,16 +58,3 @@ Open the index.html file with some browser
 ```
 teste@teste.com
 ```
-## Result.
-
-  <div style="display: flex;   flex-direction: column;
-  align-items: center;">
-  <h1 align="center" style="display: flex; flex-direction:row;">
-      <img   style="margin: 0 10px;" alt="wallet-app-img" src="src/img/screenshor1.png" />
-      <img   style="margin: 0 10px;" alt="wallet-app-img" src="src/img/screenshor2.png" />
-  </h1>
-  <h1 align="center" style="display: flex; flex-direction:row;">
-        <img   style="margin: 0 10px;" alt="wallet-app-img" src="src/img/screenshor3.png" />
-      <img   style="margin: 0 10px;" alt="wallet-app-img" src="src/img/screenshor4.png" />
-  </h1>
-  </div>
