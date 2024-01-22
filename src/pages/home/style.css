@@ -86,6 +86,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   padding: 0 112px;
+
 }
 
 .table-content-container {
@@ -98,6 +99,18 @@
   padding: 24px;
   border-radius: 24px;
   background: #FFF;
+  overflow: auto;
+}
+
+.table-content-container::-webkit-scrollbar {
+  display: none;
+}
+
+.table-content-container {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 .table-content-header {
