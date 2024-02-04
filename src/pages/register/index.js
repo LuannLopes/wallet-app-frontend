@@ -1,9 +1,6 @@
 const onCallRegister = async (email, name) => {
   try {
-    const data = {
-      email,
-      name,
-    };
+    const data = { email, name };
 
     const response = await fetch(
       "https://mp-wallet-app-api.herokuapp.com/users",
@@ -12,9 +9,7 @@ const onCallRegister = async (email, name) => {
         mode: "cors",
         cache: "no-cache",
         credentials: "same-origin",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
       }
     );
@@ -26,16 +21,24 @@ const onCallRegister = async (email, name) => {
   }
 };
 
+const validateEmail = (email) => {
+  return email.length >= 5 && email.includes("@");
+};
+
+const validateName = (name) => {
+  return name.length >= 3;
+};
+
 const onRegister = async () => {
   const email = document.getElementById("input-email").value;
   const name = document.getElementById("input-name").value;
 
-  if (name.length < 3) {
-    alert("Nome deve conter mais de 3 caracters.");
+  if (!validateName(name)) {
+    alert("Nome deve conter mais de 3 caracteres.");
     return;
   }
 
-  if (email.length < 5 || !email.includes("@")) {
+  if (!validateEmail(email)) {
     alert("Email inválido!");
     return;
   }
