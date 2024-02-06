@@ -59,7 +59,9 @@ const renderFinancesList = (data) => {
     tableRow.appendChild(createTableCell(item.name));
 
     // date
-    const formattedDate = new Date(item.date).toLocaleDateString();
+    const formattedDate = new Date(item.date).toLocaleString("pt-BR", {
+      timezone: "UTC",
+    });
     tableRow.appendChild(createTableCell(formattedDate));
 
     // value
